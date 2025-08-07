@@ -25,16 +25,19 @@ Neural Style Transfer（ニューラルスタイル転送）は、**ある画像
 - ノートブックで実行:
 ```bash
 python -m NeuralTransferLibrary.main --imgsize 512 --content-img-number 0 --style-img-number 1
+```
 CLIから直接実行:
 
-bash
+```bash
 コピーする
 編集する
 python -m NeuralTransferLibrary.main --imgsize 512 --content-img-number 0 --style-img-number 1
-3. 出力
+```
+
+#### 3. 出力
 生成された画像は output/ フォルダに保存されます。
 
-⚙️ 引数一覧
+#### ⚙️ 引数一覧
 |引数名|デフォルト値|説明|
 | ---- | ---- | ----|
 |--imgsize|512|出力画像サイズ（縦横同じピクセル数）|
@@ -46,5 +49,5 @@ python -m NeuralTransferLibrary.main --imgsize 512 --content-img-number 0 --styl
 |--content-img-number|0|contentフォルダ内の使用画像（番号指定）|
 |--style-img-number|0|styleフォルダ内の使用画像（番号指定）|
 
-📄 ライセンス
+#### 📄 ライセンス
 このプロジェクトは MITライセンス のもとで公開されています。
