@@ -27,15 +27,11 @@ Make sure the images are loadable with PIL.
 Run with Jupyter notebook:
 
 ```bash
-コピーする
-編集する
 python -m NeuralTransferLibrary.main --imgsize 512 --content-img-number 0 --style-img-number 1
 ```
 Or run from the command line:
 
 ```bash
-コピーする
-編集する
 python -m NeuralTransferLibrary.main --imgsize 512 --content-img-number 0 --style-img-number 1
 ```
 
